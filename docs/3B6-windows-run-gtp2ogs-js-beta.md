@@ -39,7 +39,10 @@ Write a bot description in your user profile (repeating your answer 1000 times, 
 
 Note : you can have many OGS bots if you want, for example i also have this bot too, but i use `--hidden` and `--rejectnew` when i play with it (if you want to do selfplay, have different strengths, etc…), [here](https://online-go.com/player/596107/)
 
-For example for my bot : 
+For example for my bot :
+
+![node62](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node62.png?raw=true)
+![node63](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node63.png?raw=true)
 
 Now connect to the official ogs using gtp2ogs, and feel free to use a more advanced command
 
@@ -54,14 +57,25 @@ Once connected, challenges work the same as earlier, you can challenge bots, hum
 Interesting to know : 
 the `--hidden` argument : if you dont use it your ai is visible by anyone in the computers list, for example :
 
+![node60](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node60.png?raw=true)
+
 As a final example i’ll show a game that i played on the official OGS with gtp2ogs :
 
 First connect to gtp2ogs official server, then the rest the same as what we saw in beta server
 (see screenshots below)
 
+![node65](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node65.png?raw=true)
+![node66](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node66.png?raw=true)
+![node67](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node67.png?raw=true)
+![node68](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node68.png?raw=true)
+![node69](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node69.png?raw=true)
+![node70](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node70.png?raw=true)
+
 **You can press Ctrl+C to stop the engine**
 
 This is for example a game my ai played on the real OGS (on my ubuntu machine though but it’s the same), [here](https://online-go.com/game/15744012)
+
+![node64](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node64.png?raw=true)
 
 Note : you can have many OGS bots if you want, for example i also have [this bot too](https://online-go.com/player/596107/) , but i use `--hidden` and `--rejectnew` when i play with it (if you want to do selfplay, have different strengths, etc…) : 
 

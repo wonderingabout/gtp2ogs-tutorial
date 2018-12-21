@@ -60,7 +60,7 @@ Interesting to know :
 
 the `--hidden` argument : if you dont use it your ai is visible by anyone in the computers list, for example :
 
-![node91b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node91b.png?raw=true)
+![node60](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node60.png?raw=true)
 
 As a final example i’ll show a game that i played on the official OGS with gtp2ogs :
 
@@ -68,6 +68,7 @@ First connect to gtp2ogs official server, then the rest the same as what we saw 
 (see screenshots below)
 
 ![node96b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node96b.png?raw=true)
+![node91b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node91b.png?raw=true)
 ![node92b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node92b.png?raw=true)
 ![node93b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node93b.png?raw=true)
 ![node94b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node94b.png?raw=true)

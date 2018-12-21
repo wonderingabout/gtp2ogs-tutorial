@@ -53,4 +53,6 @@ For your convenience a clickable index is available, and at the top of every par
 
 Come challenge [my bot on OGS](https://online-go.com/player/592558) and let's have fun together, bot vs bot
 
+![node96b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node96b.png?raw=true)
+
 credits for making this tutorial go to : [wonderingabout](https://github.com/wonderingabout)

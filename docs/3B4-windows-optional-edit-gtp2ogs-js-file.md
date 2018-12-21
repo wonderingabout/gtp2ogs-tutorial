@@ -39,7 +39,7 @@ So for other reasons it may be good to know how to modify the gtp2ogs.js file
 
 You can view a copy of gtp2ogs.js devel branch file [here](https://github.com/online-go/gtp2ogs/blob/devel/gtp2ogs.js )
 
-Optional : i also recommend to download the amazing text editor Notepad++, which we will use in this tutorial
+i also recommend to download the amazing text editor Notepad++, which we will use in this tutorial
 
 notepad++ will be useful to edit gtp2ogs.js, but also to manage logfiles of your ai much more easily (find all apikeys in document to remove them, autojump line, share game log files to other players, etc..), [here](https://notepad-plus-plus.org/download/)
 
@@ -58,5 +58,10 @@ this.command("komi " + 7.5);
 Then save and exit.
 
 Important : dont do this if you ai supports different komi values !! It will make gtp2ogs lie to the ai by telling it the komi is always 7.5 even if it is not true. I had no choice to do it or my engine could not play other very widespread values like 6.5. This is not a problem for unranked games, but dont use this feature in ranked games !
+
+![node18](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node18.png?raw=true)
+![node20](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node20.png?raw=true)
+![node21](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node21.png?raw=true)
+![node22](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node22.png?raw=true)
 
 [Next Page ->](/docs/3B5-windows-run-gtp2ogs-js-beta.md)

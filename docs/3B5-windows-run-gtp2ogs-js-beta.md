@@ -29,6 +29,9 @@
 
 I recommend to create a text file in your desktop to copy paste our command easily (for future easy use) : 
 
+![node30a](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node30a.png?raw=true)
+![node30b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node30b.png?raw=true)
+
 Check the path to node.exe, default is same as the screenshot below :
 
 (we will not run anything, only use the location path)
@@ -37,12 +40,18 @@ We will copy this path
 
 (left click on the address bar to show the path, then copy it)
 
+![node24](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node24.png?raw=true)
+
 We will also copy the path where gtp2ogs.js is installed in node_modules
 
 (left click on the address bar to show the path, then copy it)
 
+![node30](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node30.png?raw=true)
+
 Now open as admin the node.js command prompt shortcut we made on desktop earlier : 
 (whether you closed the first one or not doesnt matter at all : you will relaunch node.js anytime you start the bot anyways)
+
+![node5b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node5b.png?raw=true)
 
 Now the general usage of node.js with gtp2ogs is something like this : 
 
@@ -53,7 +62,6 @@ pushd C:\Program Files\nodejs && node.exe C:\Users\yourusername\AppData\Roaming\
 - The first command is to go to path where node.exe is installed,
 - The && allows you to run 2 commands at the same time on windows systems
 - Then the 2nd starts gtp2ogs with the ogs arguments as well as the ai engine arguments you specified
-
 
 For Example : 
 
@@ -69,6 +77,9 @@ Note : in `--gtp2ogsargument3 -- C:\Users\path\to\your\ai\executable.exe`, the d
 
 We are now connected to beta ogs server as you can see below :
 
+![node41](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node41.png?raw=true)
+![node42](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node42.png?raw=true)
+
 Now connect to your beta ogs bot account
 
 Open your web browser (firefox,chrome, etc…), and connect to your beta ogs bot account, then send a challenge to an ai, for example [GNUGo](https://beta.online-go.com/player/3/) or [Fuego](https://beta.online-go.com/player/193/)
@@ -78,9 +89,17 @@ Open your web browser (firefox,chrome, etc…), and connect to your beta ogs bot
 For example i connect into [my bot account](https://beta.online-go.com/player/787/) and i’ll challenge GNUGo to test if my bot can play automatically
 For reference, the game was played here with a komi of 225.5 (test), even though my ai was orginially not able to play with it, [here](https://beta.online-go.com/game/3958) 
 
+![node49](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node49.png?raw=true)
+
 Success! The bot plays automatically !
 
 Below is the log of my ai (PhoenixGo), which shows winrates, thinking time, etc…
+
+![node50](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node50.png?raw=true)
+![node51](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node51.png?raw=true)
+![node52](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node52.png?raw=true)
+![node53](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node53.png?raw=true)
+![node54](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node54.png?raw=true)
 
 You can press Ctrl+C to stop the engine
 
