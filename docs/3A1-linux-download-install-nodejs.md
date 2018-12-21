@@ -42,7 +42,6 @@ Download and install nodejs and npm, then check if nodejs and npm were successfu
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - && sudo apt-get install -y nodejs && nodejs -v && npm -v && which nodejs && which npm
 ```
 
-
 After install is a success, result is something like this :
 
 ```
@@ -52,4 +51,4 @@ v10.14.2
 /usr/bin/npm
 ```
 
-[Next page ->]()
+[Next page ->](/docs/3A2-linux-install-gt2ogs-js-with-npm.md)

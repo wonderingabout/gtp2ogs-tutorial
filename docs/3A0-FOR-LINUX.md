@@ -31,5 +31,5 @@
 
 In this tutorial we use the example of ubuntu because it’s a famous and easy to use linux distribution, but it should work with any linux distribution, especially the most common ones (some steps may slightly differ though)
 
-[Next page ->]()
+[Next page ->](/docs/3A1-linux-download-install-nodejs.md)
 

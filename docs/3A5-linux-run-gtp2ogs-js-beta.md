@@ -92,4 +92,4 @@ Try to send game challenges to your ai with your personal beta user account and 
 
 If it works, message the moderators again on official OGS, and ask them to make your official bot account into a grey name, so that you have an apikey into the real OGS server.
 
-[Next Page ->]()
+[Next Page ->](/docs/3A6-linux-run-gtp2ogs-js-beta.md)

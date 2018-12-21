@@ -33,14 +33,7 @@ Now that your bot has a grey name, connect to your beta user account, and go to 
 
 For example, i connect to this betaogs user account https://beta.online-go.com/player/786/ 
 
-Then go to the profile page of my betaogs bot here : https://beta.online-go.com/player/787 
-
-
-
-
-
-
-
+Then go to the profile page of my betaogs bot here : https://beta.online-go.com/player/787
 
 Then scroll down a little the profile, and you will see the API Key window on the right side in “Bot Controls” (same as screenshot above) : 
 
@@ -54,5 +47,8 @@ You should see an “Engine” line : with the name you chose (for example “Ph
 
 The steps for official ogs are the exact same, but with official ogs accounts
 
-[Next Page ->]()
+The steps will be different if you are on windows or linux
+
+[Next Page (FOR LINUX) ->](/docs/3A0-FOR-LINUX.md)
+[Next Page (FOR WINDOWS) ->](/docs/3B0-FOR-WINDOWS.md)
 

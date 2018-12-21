@@ -47,5 +47,5 @@ Note : in some situations npm is installed in /usr/local/lib/node_modules/gtp2og
 
 If that’s the case for you, replace /usr/lib/ to /usr/local/lib in all the steps you see below 
 
-[Next page ->]()
+[Next page ->](/docs/3A3-linux-optional-upgrade-to-devel.md)
 

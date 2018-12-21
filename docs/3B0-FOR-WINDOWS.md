@@ -33,5 +33,5 @@ Example : windows 10 here (tested to also work on windows server 2016)
 
 In this tutorial the windows user is hello2, replace it with your personal username
 
-[Next Page ->]()
+[Next Page ->](/docs/3B1a-windows-preparations.md)
 

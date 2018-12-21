@@ -58,5 +58,5 @@ then save and exit
 - ^ means ctrl,
 - So for example  ^+X is ctrl+x and does the exit action, but will ask if you want to save before exiting, press y to say yes, and then press ENTER to save and exit (or n then ENTER to exit without saving)
 
-[Next Page ->]()
+[Next Page ->](/docs/3A5-linux-run-gtp2ogs-js-beta.md)
 

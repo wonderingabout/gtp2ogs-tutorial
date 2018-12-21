@@ -41,10 +41,9 @@ For example :
 - Official ogs account 1 (will be an official bot) : https://online-go.com/user/view/479173 
 - Official ogs account 2 (will be the official user bot admin, you can use your personal account for that) : https://online-go.com/player/592558/ 
 
-
 Now that these prerequirements are fullfilled, we can start the steps :
 
 Note : bot and ai mean the same thing, both words are used in this tutorial
 
-[Next Page ->]()
+[Next Page ->](/docs/1-common-message-ogs-moderators.md)
 

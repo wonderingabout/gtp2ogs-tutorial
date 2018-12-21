@@ -66,3 +66,8 @@ You can press Ctrl+C to stop the engine
 Thats it !
 
 You now have a bot on the official OGS server, have fun :)
+
+Credit for making this tutorial go to the most splurgist ogs player ever, aka :
+https://online-go.com/user/view/479173 
+
+but anyways cya ^^

@@ -52,4 +52,4 @@ Explanation of what this command does :
 
 in node_modules install path of gtp2ogs.js (in this example /usr/lib/node_modules/gtp2ogs/gtp2ogs.js), do a backup of the gtp2ogs.js file to a new copy file called gtp2ogs-backup.js, then go to home folder, create a folder named “test”, go into that test folder, clone gtp2ogs devel (it is the latest) branch from github, go into that github gtp2ogs devel folder, check branch which is selected (should be devel), show a list of the files, then copy gtp2ogs.js + package.json files recursively (will erase old files, but we have created a backup of gt2ogs.js earlier) into the node_modules gtp2ogs path as explained earlier, then cleanup by removing the test folder in home folder we used, and finally go back to where gtp2ogs.js was installed as explained earlier (in this example (in this example /usr/lib/node_modules/gtp2ogs/ )
 
-[Next page ->]()
+[Next page ->](3A4-linux-optional-edit-gtp2ogs-js-file.md)
