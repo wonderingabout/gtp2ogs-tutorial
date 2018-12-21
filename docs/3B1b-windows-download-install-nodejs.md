@@ -33,11 +33,11 @@ I recommend to use the more reliable LTS version, which is node version 10
 
 Choose the LTS version (stable), then double click on the installer and say yes to all messages during the installation
 
-![node1](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node1.png?raw=true)
-![node2](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node2.png?raw=true)
-![node3](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node3.png?raw=true)
-![node4](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node4.png?raw=true)
-![node5](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node5.png?raw=true)
+![node1](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node1.PNG?raw=true)
+![node2](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node2.PNG?raw=true)
+![node3](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node3.PNG?raw=true)
+![node4](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node4.PNG?raw=true)
+![node5](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node5.PNG?raw=true)
 
 Then create a shortcut of the node.js command line, to desktop
 

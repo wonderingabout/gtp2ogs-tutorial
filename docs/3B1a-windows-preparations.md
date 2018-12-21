@@ -32,8 +32,8 @@ In your home folder :
 
 ![node0a](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node0a.png?raw=true)
 ![node0b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node0b.png?raw=true)
-![node0c](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node0c.png?raw=true)
-![node0d](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node0d.png?raw=true)
+![node0c](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node0c.PNG?raw=true)
+![node0d](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node0d.PNG?raw=true)
 
 Now Appdata folder is visible (and other hidden folders too)
 

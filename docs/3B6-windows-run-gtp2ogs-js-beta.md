@@ -64,12 +64,12 @@ As a final example i’ll show a game that i played on the official OGS with gtp
 First connect to gtp2ogs official server, then the rest the same as what we saw in beta server
 (see screenshots below)
 
-![node65](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node65.png?raw=true)
-![node66](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node66.png?raw=true)
-![node67](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node67.png?raw=true)
-![node68](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node68.png?raw=true)
-![node69](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node69.png?raw=true)
-![node70](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node70.png?raw=true)
+![node65](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node65.PNG?raw=true)
+![node66](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node66.PNG?raw=true)
+![node67](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node67.PNG?raw=true)
+![node68](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node68.PNG?raw=true)
+![node69](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node69.PNG?raw=true)
+![node70](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node70.PNG?raw=true)
 
 **You can press Ctrl+C to stop the engine**
 

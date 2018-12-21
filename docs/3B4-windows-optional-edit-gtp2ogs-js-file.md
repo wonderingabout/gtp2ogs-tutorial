@@ -61,7 +61,7 @@ Important : dont do this if you ai supports different komi values !! It will mak
 
 ![node18](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node18.png?raw=true)
 ![node20](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node20.png?raw=true)
-![node21](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node21.png?raw=true)
-![node22](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node22.png?raw=true)
+![node21](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node21.PNG?raw=true)
+![node22](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node22.PNG?raw=true)
 
 [Next Page ->](/docs/3B5-windows-run-gtp2ogs-js-beta.md)

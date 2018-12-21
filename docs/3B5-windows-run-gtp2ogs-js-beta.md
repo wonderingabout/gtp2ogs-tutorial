@@ -40,7 +40,7 @@ We will copy this path
 
 (left click on the address bar to show the path, then copy it)
 
-![node24](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node24.png?raw=true)
+![node24](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node24.PNG?raw=true)
 
 We will also copy the path where gtp2ogs.js is installed in node_modules
 
@@ -77,8 +77,8 @@ Note : in `--gtp2ogsargument3 -- C:\Users\path\to\your\ai\executable.exe`, the d
 
 We are now connected to beta ogs server as you can see below :
 
-![node41](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node41.png?raw=true)
-![node42](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node42.png?raw=true)
+![node41](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node41.PNG?raw=true)
+![node42](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node42.PNG?raw=true)
 
 Now connect to your beta ogs bot account
 
@@ -95,13 +95,13 @@ Success! The bot plays automatically !
 
 Below is the log of my ai (PhoenixGo), which shows winrates, thinking time, etc…
 
-![node50](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node50.png?raw=true)
-![node51](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node51.png?raw=true)
-![node52](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node52.png?raw=true)
-![node53](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node53.png?raw=true)
-![node54](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node54.png?raw=true)
+![node50](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node50.PNG?raw=true)
+![node51](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node51.PNG?raw=true)
+![node52](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node52.PNG?raw=true)
+![node53](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node53.PNG?raw=true)
+![node54](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node54.PNG?raw=true)
 
-You can press Ctrl+C to stop the engine
+**You can press Ctrl+C to stop the engine**
 
 Note : since bots can consume a lot of gpu power for a long duration, it is recommended to use a lower power usage of your GPU and to also manually increase the fan speed (example : 50%) to keep your GPU cool
 

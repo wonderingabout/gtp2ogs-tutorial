@@ -53,6 +53,6 @@ The steps for official ogs are the exact same, but with official ogs accounts
 
 The steps will be different if you are on windows or linux
 
-[Next Page (FOR LINUX) ->](/docs/3A0-FOR-LINUX.md)
-[Next Page (FOR WINDOWS) ->](/docs/3B0-FOR-WINDOWS.md)
+- [Next Page (FOR LINUX) ->](/docs/3A0-FOR-LINUX.md)
+- [Next Page (FOR WINDOWS) ->](/docs/3B0-FOR-WINDOWS.md)
 

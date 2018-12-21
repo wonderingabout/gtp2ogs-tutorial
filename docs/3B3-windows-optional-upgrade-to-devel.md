@@ -40,8 +40,8 @@ To do that, download from the gtp2ogs github the “devel” branch in a zip arc
 
 Then extract the zip archive, copy all files in the archive from downloaded path, to path where gtp2ogs was installed in node_modules, and overwrite old files (you can make a backup of gtp2ogs.js first and rename it gtp2ogs.js-backup if you want)
 
-![node15](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node15.png?raw=true)
-![node16](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node16.png?raw=true)
-![node17](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node17.png?raw=true)
+![node15](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node15.PNG?raw=true)
+![node16](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node16.PNG?raw=true)
+![node17](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node17.PNG?raw=true)
 
 [Next Page ->](/docs/3B4-windows-optional-edit-gtp2ogs-js-file.md)

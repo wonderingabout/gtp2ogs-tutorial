@@ -33,11 +33,11 @@ Open the node.js command prompt that we made earlier, write the command below, a
 npm install -g gtp2ogs
 ```
 
-![node6](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node6.png?raw=true)
-![node7](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node7.png?raw=true)
+![node6](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node6.PNG?raw=true)
+![node7](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node7.PNG?raw=true)
 
 gtp2ogs is installed here, as the command line tells us : 
 
-![node12](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node12.png?raw=true)
+![node12](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node12.PNG?raw=true)
 
 [Next Page ->](/docs/3B3-windows-optional-upgrade-to-devel.md)
