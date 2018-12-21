@@ -1,55 +1,53 @@
 # gtp2ogs-tutorial
+Since many people asked me on OGS, i thought it would be a great idea to make :
+
 A tutorial for windows and linux : how to have a bot on OGS
 
 
 Below is the index of the parts : 
 
 
-0) COMMON : INTRODUCTION
+[0) COMMON : INTRODUCTION](/docs/0-common-introduction.md)
 
-1) COMMON : MESSAGE OGS MODERATORS
+[1) COMMON : MESSAGE OGS MODERATORS](/docs/1-common-message-ogs-moderators.md)
 
-2) COMMON : GENERATE THE APIKEY
+[2) COMMON : GENERATE THE APIKEY](/docs/2-common-generate-the-apikey.md)
 
-3A0) FOR LINUX
-  - 3A1) Download and install nodejs and npm
-  - 3A2) Install gtp2ogs.js with npm
-  - 3A3) Optional : Upgrade gtp2ogs.js from old branch to “devel” branch (latest)
-  - 3A4) Optional : Edit the gtp2ogs.js file (for example force komi to 7.5)
-  - 3A5) Run gtp2ogs.js (beta)
-  - 3A6) Run gtp2ogs.js (official)
-
-
-3B0) FOR WINDOWS
-
-  - 3B1a) Preparations 
-  - 3B1b) Download and install nodejs
-  - 3B2) Install gtp2ogs.js
-  - 3B3) Optional : Upgrade gtp2ogs from old branch to devel (latest) branch
-  - 3B4) Optional : Modify the gtp2ogs.js file (for example force komi to 7.5)
-  - 3B5) Run gtp2ogs.js (beta)
-  - 3B6) Run gtp2ogs.js (official)
+[3A) FOR LINUX](/docs/3A0-FOR-LINUX.md)
+  - [3A1) Download and install nodejs and npm](/docs/3A1-linux-download-install-nodejs.md)
+  - [3A2) Install gtp2ogs.js with npm](/docs/3A2-linux-install-gt2ogs-js-with-npm.md)
+  - [3A3) Optional : Upgrade gtp2ogs.js from old branch to “devel” branch (latest)](/docs/3A3-linux-optional-upgrade-to-devel.md)
+  - [3A4) Optional : Edit the gtp2ogs.js file (for example force komi to 7.5)](3A4-linux-optional-edit-gtp2ogs-js-file.md)
+  - [3A5) Run gtp2ogs.js (beta)](/docs/3A5-linux-run-gtp2ogs-js-beta.md)
+  - [3A6) Run gtp2ogs.js (official)](/docs/3A6-linux-run-gtp2ogs-js-beta.md)
 
 
+[3B) FOR WINDOWS](/docs/3B0-FOR-WINDOWS.md)
 
-This tutorial is long, but it’s only because there are a lot of screenshots put in an unoptimal way
-Also, consider that the length is half what it is if you follow half of instructions : for example if only for windows
+  - [3B1a) Preparations](/docs/3B1a-windows-preparations.md)
+  - [3B1b) Download and install nodejs](/docs/3B1b-windows-download-install-nodejs.md)
+  - [3B2) Install gtp2ogs.js](/docs/3B2-windows-install-gt2ogs-js-with-npm.md)
+  - [3B3) Optional : Upgrade gtp2ogs from old branch to devel (latest) branch](/docs/3B3-windows-optional-upgrade-to-devel.md)
+  - [3B4) Optional : Modify the gtp2ogs.js file (for example force komi to 7.5)](/docs/3B4-windows-optional-edit-gtp2ogs-js-file.md)
+  - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
+  - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
-All the pictures used for this tutorial are also available here : https://drive.google.com/drive/folders/1IgnnyQapOVqG9Gn6zHrP93LxO5qC6IVZ?usp=sharing 
 
-A copy of this tutorial is also available here :
-https://docs.google.com/document/d/1BsZq980zOX02g34ElwOo3Ec1BiD7tGZYZQfKF73GGUU/edit?usp=sharing 
+
+This tutorial is long, but it’s only because there are a lot of screenshots
+Also, consider that the length is half what it is if you follow half of instructions : for example if you only want the windows instructions
+
+All the pictures used for this tutorial are also available [in google drive]( https://drive.google.com/drive/folders/1IgnnyQapOVqG9Gn6zHrP93LxO5qC6IVZ?usp=sharing) and on [github /pictures/](/pictures/)
+
+A copy of this tutorial is also available [in google docs](https://docs.google.com/document/d/1BsZq980zOX02g34ElwOo3Ec1BiD7tGZYZQfKF73GGUU/edit?usp=sharing)
 
 This tutorial is featuring PhoenixGo because it’s the ai i use : https://github.com/Tencent/PhoenixGo 
+
 But it wil work the same for all bots/ai
-(for leela zero or other bots you only need to change path to the executable, and --youraiarguments)
+(for [leela zero](https://github.com/gcp/leela-zero) or other bots you only need to change path to the executable, and the `--youraiarguments`)
 
-For your convenience a clickable index is available below, and at the top of every part of the tutorial (it is an index) , it is clickable so feel free to browse through it : 
+For your convenience a clickable index is available, and at the top of every part of the tutorial, it is clickable so feel free to browse through it : 
 
-credits for making this tutorial go to : https://github.com/wonderingabout
+Come challenge [my bot on OGS](https://online-go.com/player/592558) and let's have fun together, bot vs bot
 
-
-
-
-
-
+credits for making this tutorial go to : [wonderingabout](https://github.com/wonderingabout)
