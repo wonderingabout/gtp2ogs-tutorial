@@ -72,17 +72,25 @@ sudo nvidia-smi -pm 1 && sudo nvidia-smi -pl 75 && nvidia-smi -i 0 -q -d POWER,C
 
 So now we are connected on beta ogs server, as you can see in the screenshot below :
 
+
+
 Open your web browser (firefox,chrome, etc…), and connect to your beta ogs bot account, then send a challenge to an ai, for example [GNUGo](https://beta.online-go.com/player/3/) or [Fuego](https://beta.online-go.com/player/193/)
 
 (ai vs ai will play the games automatically, you can send a challenge against your personal beta account and manually play against your own ai if you want though)
 
 For example i connect into my [beta bot account](https://beta.online-go.com/player/787/) and i’ll challenge Fuego to test if my bot can play automatically
 
-For reference, the game was played here with a komi of 225.5 (test), even though my ai was originally not able to play with it, [here](https://beta.online-go.com/game/3960) 
+For reference, the game was played here with a komi of 225.5 (test), even though my ai was originally not able to play with it, [here](https://beta.online-go.com/game/3960)
+
+![node87](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node87.png?raw=true)
 
 Success! The bot plays automatically !
 
 Below is the log of my ai (PhoenixGo), which shows winrates, thinking time, etc…
+
+![node84](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node84.png?raw=true)
+![node85](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node85.png?raw=true)
+![node86](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node86.png?raw=true)
 
 You can press Ctrl+C to stop the engine
 

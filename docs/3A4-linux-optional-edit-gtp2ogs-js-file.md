@@ -51,6 +51,10 @@ and replace
 With
 `this.command("komi " + 7.5);`
 
+![node82c](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node82g4v2.png?raw=true)
+
+![node82d](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node82g4z9.png?raw=true)
+
 then save and exit
 
 (use nano or the text editor of your choice : to use nano, here is some explanation :

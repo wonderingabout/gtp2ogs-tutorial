@@ -47,6 +47,7 @@ sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/g
 
 Note : do not mind the other files and folders in this screenshot, they are not needed for this tutorial
 
+![node82](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node82.png?raw=true)
 
 Explanation of what this command does :
 

@@ -35,6 +35,10 @@ For example, i connect to this betaogs user account https://beta.online-go.com/p
 
 Then go to the profile page of my betaogs bot here : https://beta.online-go.com/player/787
 
+![beta1](https://raw.githubusercontent.com/wonderingabout/gtp2ogs-tutorial/master/pictures/beta%201.png)
+
+![beta2](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/beta%202.png?raw=true)
+
 Then scroll down a little the profile, and you will see the API Key window on the right side in “Bot Controls” (same as screenshot above) : 
 
 - If no API Key number appears (53e4288… in my example), click “generate API key

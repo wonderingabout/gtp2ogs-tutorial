@@ -51,4 +51,6 @@ v10.14.2
 /usr/bin/npm
 ```
 
+![node81](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node81.png?raw=true)
+
 [Next page ->](/docs/3A2-linux-install-gt2ogs-js-with-npm.md)

@@ -45,6 +45,8 @@ The path that is highlighted in red will be important for later
 
 Note : in some situations npm is installed in /usr/local/lib/node_modules/gtp2ogs/gtp2ogs.js
 
+![node81](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node81.png?raw=true)
+
 If that’s the case for you, replace /usr/lib/ to /usr/local/lib in all the steps you see below 
 
 [Next page ->](/docs/3A3-linux-optional-upgrade-to-devel.md)
