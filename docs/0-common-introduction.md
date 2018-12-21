@@ -27,7 +27,7 @@ Below is the index of the parts :
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
-Prerequisites:
+Prerequirements :
 
 - An AI that is compatible with GTP protocol (=Go Text Protocol, so that the bot plays automatically without needing to relay moves manually. If you want to manually relay moves, dont follow this tutorial)
 - In main ogs https://online-go.com/ : 1 ogs user account, 1 other ogs user account that will become ogs bot account

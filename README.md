@@ -36,6 +36,7 @@ Below is the index of the parts :
 
 
 This tutorial is long, but it’s only because there are a lot of screenshots
+
 Also, consider that the length is half what it is if you follow half of instructions : for example if you only want the windows instructions
 
 All the pictures used for this tutorial are also available [in google drive]( https://drive.google.com/drive/folders/1IgnnyQapOVqG9Gn6zHrP93LxO5qC6IVZ?usp=sharing) and on [github /pictures/](/pictures/)
