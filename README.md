@@ -6,6 +6,7 @@ A tutorial for windows and linux : how to have a bot on OGS
 
 Below is the index of the parts : 
 
+[**HOME**](https://github.com/wonderingabout/gtp2ogs-tutorial)
 
 [0) COMMON : INTRODUCTION](/docs/0-common-introduction.md)
 
@@ -46,7 +47,9 @@ This tutorial is featuring PhoenixGo because it’s the ai i use : https://githu
 But it wil work the same for all bots/ai
 (for [leela zero](https://github.com/gcp/leela-zero) or other bots you only need to change path to the executable, and the `--youraiarguments`)
 
-For your convenience a clickable index is available, and at the top of every part of the tutorial, it is clickable so feel free to browse through it : 
+For your convenience a clickable index is available, and at the top of every part of the tutorial, it is clickable so feel free to browse through it
+
+**The current part of the index you are in is highlighted** 
 
 Come challenge [my bot on OGS](https://online-go.com/player/592558) and let's have fun together, bot vs bot
 
