@@ -3,6 +3,8 @@ Since many people asked me on OGS, i thought it would be a great idea to make :
 
 A tutorial for windows and linux : how to have a bot on OGS
 
+Using [nodejs and npm](https://nodejs.org/en/download/), and [gtp2ogs](https://github.com/online-go/gtp2ogs)
+
 
 Below is the index of the parts : 
 

@@ -10,7 +10,7 @@
   - [3A1) Download and install nodejs and npm](/docs/3A1-linux-download-install-nodejs.md)
   - [3A2) Install gtp2ogs.js with npm](/docs/3A2-linux-install-gt2ogs-js-with-npm.md)
   - [**3A3) Optional : Upgrade gtp2ogs.js from old branch to “devel” branch (latest)**](/docs/3A3-linux-optional-upgrade-to-devel.md)
-  - [3A4) Optional : Edit the gtp2ogs.js file (for example force komi to 7.5)](3A4-linux-optional-edit-gtp2ogs-js-file.md)
+  - [3A4) Optional : Edit the gtp2ogs.js file](3A4-linux-optional-edit-gtp2ogs-js-file.md)
   - [3A5) Run gtp2ogs.js (beta)](/docs/3A5-linux-run-gtp2ogs-js-beta.md)
   - [3A6) Run gtp2ogs.js (official)](/docs/3A6-linux-run-gtp2ogs-js-beta.md)
 
@@ -21,7 +21,7 @@
   - [3B1b) Download and install nodejs](/docs/3B1b-windows-download-install-nodejs.md)
   - [3B2) Install gtp2ogs.js](/docs/3B2-windows-install-gt2ogs-js-with-npm.md)
   - [3B3) Optional : Upgrade gtp2ogs from old branch to devel (latest) branch](/docs/3B3-windows-optional-upgrade-to-devel.md)
-  - [3B4) Optional : Modify the gtp2ogs.js file (for example force komi to 7.5)](/docs/3B4-windows-optional-edit-gtp2ogs-js-file.md)
+  - [3B4) Optional : Edit the gtp2ogs.js file](/docs/3B4-windows-optional-edit-gtp2ogs-js-file.md)
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
@@ -42,7 +42,7 @@ In this example, it is : **/usr/lib/node_modules/gtp2ogs/gtp2ogs.js**
 (if your path is different, replace it in the command below and in all the next steps of this tutorial)
 
 ```
-sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir test && cd test && git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -r -f gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -r -f package.json /usr/lib/node_modules/gtp2ogs/ && rm -r -f ~/test && cd /usr/lib/node_modules/gtp2ogs/ && ls
+sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -r -f gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -r -f package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -r -f ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
 ```
 
 Note : do not mind the other files and folders in this screenshot, they are not needed for this tutorial
