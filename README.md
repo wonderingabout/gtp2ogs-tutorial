@@ -20,7 +20,7 @@ Below is the index of the parts :
   - [3A1) Download and install nodejs and npm](/docs/3A1-linux-download-install-nodejs.md)
   - [3A2) Install gtp2ogs.js with npm](/docs/3A2-linux-install-gt2ogs-js-with-npm.md)
   - [3A3) Optional : Upgrade gtp2ogs.js from old branch to “devel” branch (latest)](/docs/3A3-linux-optional-upgrade-to-devel.md)
-  - [3A4) Optional : Edit the gtp2ogs.js file](3A4-linux-optional-edit-gtp2ogs-js-file.md)
+  - [3A4) Optional : Edit the gtp2ogs.js file](/docs/3A4-linux-optional-edit-gtp2ogs-js-file.md)
   - [3A5) Run gtp2ogs.js (beta)](/docs/3A5-linux-run-gtp2ogs-js-beta.md)
   - [3A6) Run gtp2ogs.js (official)](/docs/3A6-linux-run-gtp2ogs-js-beta.md)
 
