@@ -21,7 +21,7 @@
   - [3B1b) Download and install nodejs](/docs/3B1b-windows-download-install-nodejs.md)
   - [3B2) Install gtp2ogs.js](/docs/3B2-windows-install-gt2ogs-js-with-npm.md)
   - [3B3) Optional : Upgrade gtp2ogs from old branch to devel (latest) branch](/docs/3B3-windows-optional-upgrade-to-devel.md)
-  - [3B4) Optional : Edit the gtp2ogs.js file](/docs/3B4-windows-optional-edit-gtp2ogs-js-file.md)
+  - [3B4) Optional : Edit the gtp2ogs.js file (for example show winrate on OGS)](/docs/3B4-windows-optional-edit-gtp2ogs-js-file.md)
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [**3B6) Run gtp2ogs.js (official)**](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
