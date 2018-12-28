@@ -37,7 +37,7 @@
 **This method is now outdated, you can now add the `--komi` argument directly, but it shows an example of how to edit gtp2ogs.js for various other reasons**
 
 **NOTE 2 :**
-**A more interesting example is to show how to add send the bot winrate at every move to OGS ingame chat, as you can see below**
+**A more interesting example is for your bot to send the winrate on OGS at every move, in ingame chat, as you can see below**
 
 ![phoenixgo-text-winrate](/pictures/phoenixgo-text-winrate.png)
 
