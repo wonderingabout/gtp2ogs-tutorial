@@ -43,16 +43,16 @@ I recommend you to also private message every OGS moderators, for example this m
 
 This is the current list of OGS moderators : 
 
-Xhu98 https://online-go.com/player/69627/
-VincentCB https://online-go.com/player/441/ 
-Mark5000d https://online-go.com/player/64817/ 
-Adamr https://online-go.com/player/360861/ 
-Entropixel https://online-go.com/player/55415/ 
-Mlopezviedma https://online-go.com/player/784/ 
-Crocrobot https://online-go.com/player/781/ 
-Razza99 https://online-go.com/player/299041/ 
-Anoek https://online-go.com/player/1/ 
-Eugene https://online-go.com/player/412892/ 
+- Xhu98 https://online-go.com/player/69627/
+- VincentCB https://online-go.com/player/441/ 
+- Mark5000d https://online-go.com/player/64817/ 
+- Adamr https://online-go.com/player/360861/ 
+- Entropixel https://online-go.com/player/55415/ 
+- Mlopezviedma https://online-go.com/player/784/ 
+- Crocrobot https://online-go.com/player/781/ 
+- Razza99 https://online-go.com/player/299041/ 
+- Anoek https://online-go.com/player/1/ 
+- Eugene https://online-go.com/player/412892/ 
 
 Private message to every mod : 
 
