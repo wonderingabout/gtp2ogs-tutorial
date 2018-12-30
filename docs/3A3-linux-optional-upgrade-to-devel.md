@@ -42,15 +42,33 @@ In this example, it is : **/usr/lib/node_modules/gtp2ogs/gtp2ogs.js**
 (if your path is different, replace it in the command below and in all the next steps of this tutorial)
 
 ```
-sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -r -f gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -r -f package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -r -f ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
+sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -rf gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -rf package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -rf ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
+```
+
+You can also use a custom branch that has some extra features, for example : 
+
+```
+sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b maxtotalgames https://github.com/roy7/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -rf gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -rf package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -rf ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
 ```
 
 Note : do not mind the other files and folders in this screenshot, they are not needed for this tutorial
+
+Note 2 : do not mind the warning permission denied, it doesn't prevent us from doing what we want
 
 ![node82](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node82.png?raw=true)
 
 Explanation of what this command does :
 
-in node_modules install path of gtp2ogs.js (in this example /usr/lib/node_modules/gtp2ogs/gtp2ogs.js), do a backup of the gtp2ogs.js file to a new copy file called gtp2ogs-backup.js, then go to home folder, create a folder named “test”, go into that test folder, clone gtp2ogs devel (it is the latest) branch from github, go into that github gtp2ogs devel folder, check branch which is selected (should be devel), show a list of the files, then copy gtp2ogs.js + package.json files recursively (will erase old files, but we have created a backup of gt2ogs.js earlier) into the node_modules gtp2ogs path as explained earlier, then cleanup by removing the test folder in home folder we used, and finally go back to where gtp2ogs.js was installed as explained earlier (in this example (in this example /usr/lib/node_modules/gtp2ogs/ )
+- in node_modules install path of gtp2ogs.js (in this example /usr/lib/node_modules/gtp2ogs/gtp2ogs.js), do a backup of the gtp2ogs.js file to a new copy file called gtp2ogs-backup.js,
+- then go to home folder,
+- create a folder named “test”,
+- go into that test folder,
+- clone gtp2ogs devel (it is the latest) branch from github,
+- go into that github gtp2ogs devel folder,
+- check branch which is selected (should be devel),
+- show a list of the files,
+- then copy gtp2ogs.js + package.json files recursively (will erase old files, but we have created a backup of gt2ogs.js earlier) into the node_modules gtp2ogs path as explained earlier,
+- then cleanup by removing the test folder in home folder we used,
+- and finally go back to where gtp2ogs.js was installed as explained earlier (in this example (in this example /usr/lib/node_modules/gtp2ogs/ )
 
 [Next page ->](3A4-linux-optional-edit-gtp2ogs-js-file.md)
