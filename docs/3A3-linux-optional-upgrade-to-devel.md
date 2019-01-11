@@ -9,7 +9,7 @@
 [3A) FOR LINUX](/docs/3A0-FOR-LINUX.md)
   - [3A1) Download and install nodejs and npm](/docs/3A1-linux-download-install-nodejs.md)
   - [3A2) Install gtp2ogs.js with npm](/docs/3A2-linux-install-gt2ogs-js-with-npm.md)
-  - [**3A3) Optional : Upgrade gtp2ogs.js from old branch to “devel” branch (latest)**](/docs/3A3-linux-optional-upgrade-to-devel.md)
+  - [**3A3) Recommended : Upgrade gtp2ogs.js from old branch to “devel” branch (latest)**](/docs/3A3-linux-optional-upgrade-to-devel.md)
   - [3A4) Optional : Edit the gtp2ogs.js file (for example show winrate on OGS)](3A4-linux-optional-edit-gtp2ogs-js-file.md)
   - [3A5) Run gtp2ogs.js (beta)](/docs/3A5-linux-run-gtp2ogs-js-beta.md)
   - [3A6) Run gtp2ogs.js (official)](/docs/3A6-linux-run-gtp2ogs-js-beta.md)
@@ -20,18 +20,18 @@
   - [3B1a) Preparations](/docs/3B1a-windows-preparations.md)
   - [3B1b) Download and install nodejs](/docs/3B1b-windows-download-install-nodejs.md)
   - [3B2) Install gtp2ogs.js](/docs/3B2-windows-install-gt2ogs-js-with-npm.md)
-  - [3B3) Optional : Upgrade gtp2ogs from old branch to devel (latest) branch](/docs/3B3-windows-optional-upgrade-to-devel.md)
+  - [3B3) Recommended : Upgrade gtp2ogs from old branch to devel (latest) branch](/docs/3B3-windows-optional-upgrade-to-devel.md)
   - [3B4) Optional : Edit the gtp2ogs.js file (for example show winrate on OGS)](/docs/3B4-windows-optional-edit-gtp2ogs-js-file.md)
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
 3A3) Optional : Upgrade gtp2ogs.js from old branch to “devel” branch (latest)
 
-**(You can skip this step if you dont want it, [Next Page ->]())**
+**(This step is not an obligation, but it is highly recommended and only takes a few minutes)**
 
-The last stable release of gtp2ogs is old, i recommend you to use the devel branch of gtp2ogs rather to have latest fixes and improvements, see [the official github](https://github.com/online-go/gtp2ogs/tree/devel)
+The last stable release of gtp2ogs is old, it is higly recommended to use the devel branch of gtp2ogs rather, to have latest fixes and improvements, see [the official github](https://github.com/online-go/gtp2ogs/tree/devel)
 
-Note : The generic command `sudo npm install -g --save online-go/gtp2ogs#devel --save` should have allowed to do it, but it seems using the `#` is forbidden by online-go github, so we will rather download gtp2ogs devel branch directly. 
+Note : The generic command `sudo npm install -g --save online-go/gtp2ogs#devel --save` should have allowed to do it, but it seems using the `#` is forbidden by online-go github, so we will rather download gtp2ogs devel branch ZIP archive directly. 
 
 To upgrade gtp2ogs.js to devel branch, we’ll use the all in one command below : 
 
@@ -45,7 +45,7 @@ In this example, it is : **/usr/lib/node_modules/gtp2ogs/gtp2ogs.js**
 sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -rf gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -rf package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -rf ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
 ```
 
-You can also use a custom branch that has some extra features, for example : 
+You can also use any custom branch that has some extra features or fixes, for example : 
 
 ```
 sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b maxtotalgames https://github.com/roy7/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -rf gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -rf package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -rf ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
