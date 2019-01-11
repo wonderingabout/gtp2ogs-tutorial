@@ -47,6 +47,8 @@ see [that branch](https://github.com/wonderingabout/gtp2ogs/tree/roy7live-texton
 
 ------------------
 
+for the outdated example : 
+
 There are many reasons why you may want to modify the gtp2ogs.js file
 
 For example, my ai PhoenixGo cannot play if the komi is set to a value different from 7.5, it will say “unacceptable komi” and will refuse to play. 
