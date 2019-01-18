@@ -29,7 +29,7 @@ Below is the index of the parts :
 
 Prerequirements :
 
-- An AI that is compatible with GTP protocol (=Go Text Protocol, so that the bot plays automatically without needing to relay moves manually. If you want to manually relay moves, dont follow this tutorial)
+- An AI that is compatible with [GTP](https://senseis.xmp.net/?GoTextProtocol) (= Go Text Protocol, so that the bot plays automatically without needing to relay moves manually. If you want to manually relay moves, dont follow this tutorial)
 - In main ogs https://online-go.com/ : 1 ogs user account, 1 other ogs user account that will become ogs bot account
 - In beta ogs https://beta.online-go.com/ : 1 beta.ogs user account, 1 other beta.ogs user account that will become beta.ogs bot account
 - System : windows, linux, mac
