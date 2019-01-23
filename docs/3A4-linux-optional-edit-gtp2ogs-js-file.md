@@ -27,7 +27,7 @@
 
 3A4) Optional : Modify the gtp2ogs.js file (for example force komi to 7.5)
 
-**(You can skip this step if you dont want it, [Next Page ->]())**
+**(You can skip this step if you dont want it, [Next Page ->](/docs/3A5-linux-run-gtp2ogs-js-beta.md)**
 
 
 --------------------
