@@ -41,7 +41,7 @@ Result is something like this :
 added 88 packages from 54 contributors in 5.734s
 ```
 
-The path that is highlighted in red will be important for later
+The path that is highlighted **/usr/lib/node_modules/gtp2ogs/** will be important for later
 
 Note : in some situations npm is installed in /usr/local/lib/node_modules/gtp2ogs/gtp2ogs.js
 
