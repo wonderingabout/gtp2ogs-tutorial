@@ -27,31 +27,33 @@
 
 Wait until a moderator answers you
 
-When they do it for you, your beta ogs bot account will have a grey name and if you go to the bot profile page, you will see that the the beta bot admin is now your beta user account
+When they do it for you, your beta ogs bot account will have a grey name, so now your beta ogs bot account is a true bot account (because it has a grey name now)
 
-Now that your bot has a grey name, connect to your beta user account, and go to the profile page of your beta bot account
+Now, visit your beta OGS bot profile page, you will see that the the beta bot admin is now your beta user account, for example in my case metaphysician splurgist :) (beta user account) is now the beta bot admin
 
-For example, i connect to this betaogs user account https://beta.online-go.com/player/786/ 
+Now that your bot has a grey name, connect to your beta user account, and visit the profile page of your beta bot account
 
-Then go to the profile page of my betaogs bot here : https://beta.online-go.com/player/787
+For example, i connect to this betaogs user account metaphysician splurgist :) in this example https://beta.online-go.com/player/786/ 
+
+Then i open the profile page of my beta ogs bot account meta--金毛测试-20b here : https://beta.online-go.com/player/787
 
 ![beta1](https://raw.githubusercontent.com/wonderingabout/gtp2ogs-tutorial/master/pictures/beta%201.png)
 
 ![beta2](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/beta%202.png?raw=true)
 
-Then scroll down a little the profile, and you will see the API Key window on the right side in “Bot Controls” (same as screenshot above) : 
+Then scroll down a little the profile of your beta bot account, and you will see the API Key window on the right side in “Bot Controls” (same as screenshot above). On the "Bot controls" box :
 
 - If no API Key number appears (53e4288… in my example), click “generate API key
 - Then give your bot any name in bot engine (for example for me “PhoenixGo 20b”), the name will appear in “Engine” description of the profile
 - and click “Save”
 
-An API key is like a password, we will use it to connect directly to your bot on OGS later, please dont share it !
+An API key is like a password, we will use it to connect directly to your bot on beta OGS later (and later to your official ogs bot account too), please dont share it !
 
 You should see an “Engine” line : with the name you chose (for example “PhoenixGo 20b”)
 
 The steps for official ogs are the exact same, but with official ogs accounts
 
-The steps will be different if you are on windows or linux
+The next steps will be different if you are on windows or linux
 
 - [Next Page (FOR LINUX) ->](/docs/3A0-FOR-LINUX.md)
 - [Next Page (FOR WINDOWS) ->](/docs/3B0-FOR-WINDOWS.md)
