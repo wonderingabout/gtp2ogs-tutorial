@@ -48,7 +48,7 @@ sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/g
 You can also use any custom branch that has some extra features or fixes, for example : 
 
 ```
-sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b maxtotalgames https://github.com/roy7/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -rf gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -rf package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -rf ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
+sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b roy7live-textonly-phoenixgo https://github.com/wonderingabout/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -rf gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -rf package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -rf ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
 ```
 
 Note : do not mind the other files and folders in this screenshot, they are not needed for this tutorial
