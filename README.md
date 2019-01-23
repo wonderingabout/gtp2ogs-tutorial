@@ -52,11 +52,17 @@ For your convenience a clickable index is available, and at the top of every par
 
 **The current part of the index you are in is highlighted** 
 
-## Discord
+## Discord and AI tournaments
 
-come chat with all bot admins and people interested on ogs on the discord here :)
+- come chat with all bot admins and people interested on ogs on the discord here :)
 
 https://discord.gg/HZ23Cp9
+
+- we are also running correspondence AI tournaments for amateur bot admins here :)
+
+welcome to everyone :)
+
+[metaBot AI Tournaments OGS 2019x19](https://online-go.com/group/3211)
 
 # Pictures
 
