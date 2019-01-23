@@ -50,6 +50,12 @@ But it wil work the same for all bots/ai
 
 For your convenience a clickable index is available, and at the top of every part of the tutorial, it is clickable so feel free to browse through it
 
+## Discord
+
+come chat with all bot admins and people interested on ogs on the discord here :)
+
+https://discord.gg/HZ23Cp9
+
 **The current part of the index you are in is highlighted** 
 
 Come challenge [my bot on OGS](https://online-go.com/player/592558) and let's have fun together, bot vs bot
