@@ -29,8 +29,7 @@
 
 To install nodejs, I’ll go for the easy way and use package manager (apt-get for ubuntu) with ppa, feel free to use another method if you want, but this one is easy and works : 
 
-Package is provided [from here]
-(https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
+Package is provided [from here](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
 
 I’m using ubuntu 16.04 as an example for this tutorial.
 
