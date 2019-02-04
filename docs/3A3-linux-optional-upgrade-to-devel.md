@@ -25,9 +25,12 @@
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
-3A3) Optional : Upgrade gtp2ogs.js from old branch to “devel” branch (latest)
+3A3) Optional : Upgrade gtp2ogs from old branch to “devel” branch (latest)
 
 **(This step is not an obligation, but it is highly recommended and only takes a few minutes)**
+
+**UPDATE FEBRUARY 2019 : the old gtp2ogs.js has been split into many modules, to upgrade your gtp2ogs to devel, you now need to upgrade all the gtp2ogs files (gtp2ogs.js, bot.js, config.js, etc...). But the process to upgrade your branch is the same : just copy all gtp2ogs files now, instead of only gtp2ogs.js in the past**
+
 
 The last stable release of gtp2ogs is old, it is higly recommended to use the devel branch of gtp2ogs rather, to have latest fixes and improvements, see [the official github](https://github.com/online-go/gtp2ogs/tree/devel)
 
