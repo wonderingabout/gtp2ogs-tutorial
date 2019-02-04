@@ -27,6 +27,8 @@
 
 3B3) Optional : Upgrade gtp2ogs from old branch to devel (latest) branch
 
+**UPDATE FEBRUARY 2019 : the old gtp2ogs.js has been split into many modules, to upgrade your gtp2ogs to devel, you now need to upgrade all the gtp2ogs files (gtp2ogs.js, bot.js, config.js, etc...). But the process to upgrade your branch is the same : just copy all gtp2ogs files now, instead of only gtp2ogs.js in the past**
+
 **(This step is not an obligation, but it is highly recommended and only takes a few minutes)**
 
 Npm (node package manager) installs an old branch of gtp2ogs
