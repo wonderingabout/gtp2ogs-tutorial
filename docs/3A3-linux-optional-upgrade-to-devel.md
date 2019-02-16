@@ -45,13 +45,29 @@ In this example, it is : **/usr/lib/node_modules/gtp2ogs/gtp2ogs.js**
 (if your path is different, replace it in the command below and in all the next steps of this tutorial)
 
 ```
-sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -rf gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -rf package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -rf ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
+sudo mkdir /usr/lib/node_modules/gtp2ogs/backup && \
+sudo cp /usr/lib/node_modules/gtp2ogs/* /usr/lib/node_modules/gtp2ogs/backup && ls && \
+cd ~ && mkdir testtt && cd testtt && \
+git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && \
+git branch && ls && \
+sudo cp -rf * /usr/lib/node_modules/gtp2ogs/ && \
+sudo rm -rf ~/testtt && \
+cd /usr/lib/node_modules/gtp2ogs/ && \
+ls
 ```
 
-You can also use any custom branch that has some extra features or fixes, for example : 
+You can also use any custom branch that has some extra features or fixes, for example using this branch instead of the online-go/gtp2ogs official devel branch, in the same command line than above : 
 
 ```
-sudo cp /usr/lib/node_modules/gtp2ogs/gtp2ogs.js /usr/lib/node_modules/gtp2ogs/gtp2ogs-backup.js && ls && cd ~ && mkdir testtt && cd testtt && git clone -b roy7live-textonly-phoenixgo https://github.com/wonderingabout/gtp2ogs && cd gtp2ogs && git branch && ls && sudo cp -rf gtp2ogs.js /usr/lib/node_modules/gtp2ogs/ && sudo cp -rf package.json /usr/lib/node_modules/gtp2ogs/ && sudo rm -rf ~/testtt && cd /usr/lib/node_modules/gtp2ogs/ && ls
+sudo mkdir /usr/lib/node_modules/gtp2ogs/backup && \
+sudo cp /usr/lib/node_modules/gtp2ogs/* /usr/lib/node_modules/gtp2ogs/backup && ls && \
+cd ~ && mkdir testtt && cd testtt && \
+git clone -b roy7live-textonly-phoenixgo https://github.com/wonderingabout/gtp2ogs && cd gtp2ogs && \
+git branch && ls && \
+sudo cp -rf * /usr/lib/node_modules/gtp2ogs/ && \
+sudo rm -rf ~/testtt && \
+cd /usr/lib/node_modules/gtp2ogs/ && \
+ls
 ```
 
 Note : do not mind the other files and folders in this screenshot, they are not needed for this tutorial
@@ -62,16 +78,16 @@ Note 2 : do not mind the warning permission denied, it doesn't prevent us from d
 
 Explanation of what this command does :
 
-- in node_modules install path of gtp2ogs.js (in this example /usr/lib/node_modules/gtp2ogs/gtp2ogs.js), do a backup of the gtp2ogs.js file to a new copy file called gtp2ogs-backup.js,
+- in node_modules install path of gtp2ogs files (in this example /usr/lib/node_modules/gtp2ogs/), do a backup of all the gtp2ogs files in a new folder called backup called "backup" (we can revert to that later if we want),
 - then go to home folder,
-- create a folder named “test”,
-- go into that test folder,
+- create a folder named “testtt”,
+- go into that testtt folder,
 - clone gtp2ogs devel (it is the latest) branch from github,
 - go into that github gtp2ogs devel folder,
 - check branch which is selected (should be devel),
 - show a list of the files,
-- then copy gtp2ogs.js + package.json files recursively (will erase old files, but we have created a backup of gt2ogs.js earlier) into the node_modules gtp2ogs path as explained earlier,
-- then cleanup by removing the test folder in home folder we used,
-- and finally go back to where gtp2ogs.js was installed as explained earlier (in this example (in this example /usr/lib/node_modules/gtp2ogs/ )
+- then copy all gtp2ogs files in that devel folder recursively into the node_modules gtp2ogs path folder /usr/lib/node_modules/gtp2ogs/ , (will erase old files, but we created a backup of gt2ogs files  earlier so no problem here) 
+- then cleanup by removing the testtt folder in home folder we used,
+- and finally go back to where gtp2ogs files were installed as explained earlier (in this example /usr/lib/node_modules/gtp2ogs/ )
 
 [Next page ->](3A4-linux-optional-edit-gtp2ogs-js-file.md)
