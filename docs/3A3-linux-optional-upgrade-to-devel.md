@@ -44,6 +44,9 @@ In this example, it is : **/usr/lib/node_modules/gtp2ogs/gtp2ogs.js**
 
 (if your path is different, replace it in the command below and in all the next steps of this tutorial)
 
+Note : if backup folder already exists, it will tell that to you, but this doesnt prevent
+our all in one command from being executed (backup folder content will just be overwritten)
+
 ```
 # Making backup of existing gtp2ogs && \
 sudo mkdir ~/gtp2ogs-backup ; \
