@@ -45,13 +45,17 @@ In this example, it is : **/usr/lib/node_modules/gtp2ogs/gtp2ogs.js**
 (if your path is different, replace it in the command below and in all the next steps of this tutorial)
 
 ```
-sudo mkdir /usr/lib/node_modules/gtp2ogs/backup ; \
-sudo cp -rf /usr/lib/node_modules/gtp2ogs/* /usr/lib/node_modules/gtp2ogs/backup && ls && \
+# Making backup of existing gtp2ogs && \
+sudo mkdir ~/gtp2ogs-backup ; \
+sudo cp -rf /usr/lib/node_modules/gtp2ogs/* ~/gtp2ogs-backup && \
+# Overwriting existing gtp2ogs with newly cloned gtp2ogs branch
 cd ~ && mkdir testtt && cd testtt && \
 git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && \
 git branch && ls && \
 sudo cp -rf * /usr/lib/node_modules/gtp2ogs/ && \
+# Post-install cleanup && \
 sudo rm -rf ~/testtt && \
+# Going to destination folder && \
 cd /usr/lib/node_modules/gtp2ogs/ && \
 ls
 ```
@@ -59,13 +63,17 @@ ls
 You can also use any custom branch that has some extra features or fixes, for example using this branch instead of the online-go/gtp2ogs official devel branch, in the same command line than above : 
 
 ```
-sudo mkdir /usr/lib/node_modules/gtp2ogs/backup ; \
-sudo cp -rf /usr/lib/node_modules/gtp2ogs/* /usr/lib/node_modules/gtp2ogs/backup && ls && \
+# Making backup of existing gtp2ogs && \
+sudo mkdir ~/gtp2ogs-backup ; \
+sudo cp -rf /usr/lib/node_modules/gtp2ogs/* ~/gtp2ogs-backup && \
+# Overwriting existing gtp2ogs with newly cloned gtp2ogs branch
 cd ~ && mkdir testtt && cd testtt && \
 git clone -b roy7live-textonly-phoenixgo https://github.com/wonderingabout/gtp2ogs && cd gtp2ogs && \
 git branch && ls && \
 sudo cp -rf * /usr/lib/node_modules/gtp2ogs/ && \
+# Post-install cleanup && \
 sudo rm -rf ~/testtt && \
+# Going to destination folder && \
 cd /usr/lib/node_modules/gtp2ogs/ && \
 ls
 ```
@@ -78,7 +86,7 @@ Note 2 : do not mind the warning permission denied, it doesn't prevent us from d
 
 Explanation of what this command does :
 
-- in node_modules install path of gtp2ogs files (in this example /usr/lib/node_modules/gtp2ogs/), do a backup of all the gtp2ogs files in a new folder called backup called "backup" (we can revert to that later if we want),
+- in node_modules install path of gtp2ogs files (in this example /usr/lib/node_modules/gtp2ogs/), do a backup of all the gtp2ogs files in a new folder called "gtp2ogs-backup" in home folder (we can revert to that later if we want),
 - then go to home folder,
 - create a folder named “testtt”,
 - go into that testtt folder,
