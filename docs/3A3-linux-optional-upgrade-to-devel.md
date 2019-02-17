@@ -45,7 +45,7 @@ In this example, it is : **/usr/lib/node_modules/gtp2ogs/gtp2ogs.js**
 (if your path is different, replace it in the command below and in all the next steps of this tutorial)
 
 ```
-sudo mkdir /usr/lib/node_modules/gtp2ogs/backup && \
+sudo mkdir /usr/lib/node_modules/gtp2ogs/backup ; \
 sudo cp -rf /usr/lib/node_modules/gtp2ogs/* /usr/lib/node_modules/gtp2ogs/backup && ls && \
 cd ~ && mkdir testtt && cd testtt && \
 git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && \
@@ -59,7 +59,7 @@ ls
 You can also use any custom branch that has some extra features or fixes, for example using this branch instead of the online-go/gtp2ogs official devel branch, in the same command line than above : 
 
 ```
-sudo mkdir /usr/lib/node_modules/gtp2ogs/backup && \
+sudo mkdir /usr/lib/node_modules/gtp2ogs/backup ; \
 sudo cp -rf /usr/lib/node_modules/gtp2ogs/* /usr/lib/node_modules/gtp2ogs/backup && ls && \
 cd ~ && mkdir testtt && cd testtt && \
 git clone -b roy7live-textonly-phoenixgo https://github.com/wonderingabout/gtp2ogs && cd gtp2ogs && \
