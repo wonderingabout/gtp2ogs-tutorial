@@ -51,7 +51,7 @@ our all in one command from being executed (backup folder content will just be o
 # Making backup of existing gtp2ogs && \
 sudo mkdir ~/gtp2ogs-backup ; \
 sudo cp -rf /usr/lib/node_modules/gtp2ogs/* ~/gtp2ogs-backup && \
-# Overwriting existing gtp2ogs with newly cloned gtp2ogs branch
+# Overwriting existing gtp2ogs with newly cloned gtp2ogs branch && \
 cd ~ && mkdir testtt && cd testtt && \
 git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && \
 git branch && ls && \
@@ -69,7 +69,7 @@ You can also use any custom branch that has some extra features or fixes, for ex
 # Making backup of existing gtp2ogs && \
 sudo mkdir ~/gtp2ogs-backup ; \
 sudo cp -rf /usr/lib/node_modules/gtp2ogs/* ~/gtp2ogs-backup && \
-# Overwriting existing gtp2ogs with newly cloned gtp2ogs branch
+# Overwriting existing gtp2ogs with newly cloned gtp2ogs branch && \
 cd ~ && mkdir testtt && cd testtt && \
 git clone -b roy7live-textonly-phoenixgo https://github.com/wonderingabout/gtp2ogs && cd gtp2ogs && \
 git branch && ls && \
