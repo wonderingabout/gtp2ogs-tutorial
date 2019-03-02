@@ -61,7 +61,7 @@ sudo rm -rf ~/testtt && \
 # Going to destination folder && \
 cd /usr/lib/node_modules/gtp2ogs/ && \
 # Installing extra needed packages from new branch's package.json && \
-sudo npm install
+sudo npm install && \
 ls
 ```
 
@@ -81,7 +81,7 @@ sudo rm -rf ~/testtt && \
 # Going to destination folder && \
 cd /usr/lib/node_modules/gtp2ogs/ && \
 # Installing extra needed packages from new branch's package.json && \
-sudo npm install
+sudo npm install && \
 ls
 ```
 
