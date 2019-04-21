@@ -38,8 +38,8 @@ Prerequirements :
 For example : 
 - Beta ogs account 1 (will be a beta bot) : https://beta.online-go.com/player/787 
 - Beta ogs account 2 (will be a beta user bot admin) : https://beta.online-go.com/player/786 
-- Official ogs account 1 (will be an official bot) : https://online-go.com/user/view/479173 
-- Official ogs account 2 (will be the official user bot admin, you can use your personal account for that) : https://online-go.com/player/592558/ 
+- Official ogs account 1 (will be an official bot) : https://online-go.com/player/592558/
+- Official ogs account 2 (will be the official user bot admin, you can use your personal account for that) :  https://online-go.com/user/view/479173
 
 Now that these prerequirements are fullfilled, we can start the steps :
 
