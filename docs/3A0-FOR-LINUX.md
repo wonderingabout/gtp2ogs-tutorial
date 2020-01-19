@@ -29,10 +29,15 @@
 So :
 
 - Nodejs is a javascript server tool that we will use to run gtp2ogs later
-- gtp2ogs is a javascript program used to communicate in both directions (in and out) in GTP language between your AI bot engine (example : PhoenixGo, leela zero, etc..) and the OGS distant board where the game is played
-- npm (node package manager) is a package manager that we will use to install gtp2ogs
+- gtp2ogs is a javascript program used to communicate in both directions 
+(in and out) in GTP language between your AI bot engine (example : PhoenixGo, 
+leela zero, etc..) and the OGS distant board where the game is played
+- npm (node package manager) is a package manager that we will use to install 
+gtp2ogs
 
-In this tutorial we use the example of ubuntu because it’s a famous and easy to use linux distribution, but it should work with any linux distribution, especially the most common ones (some steps may slightly differ though)
+In this tutorial we use the example of ubuntu because it’s a famous and 
+easy to use linux distribution, but it should work with any linux distribution, 
+especially the most common ones (some steps may slightly differ though)
 
 [Next page ->](/docs/3A1-linux-download-install-nodejs.md)
 

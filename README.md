@@ -1,10 +1,11 @@
 # gtp2ogs-tutorial
-Since many people asked me on OGS, i thought it would be a great idea to make :
+Since many people asked me on OGS, i thought it would be 
+a great idea to make :
 
-A tutorial for windows and linux : how to have a bot on OGS
+A tutorial for windows and linux : how to have a bot on OGS.
 
-Using [nodejs and npm](https://nodejs.org/en/download/), and [gtp2ogs](https://github.com/online-go/gtp2ogs)
-
+Using [nodejs and npm](https://nodejs.org/en/download/), 
+and [gtp2ogs](https://github.com/online-go/gtp2ogs).
 
 Below is the index of the parts : 
 
@@ -37,41 +38,59 @@ Below is the index of the parts :
 
 
 
-This tutorial is long, but it’s only because there are a lot of screenshots
+This tutorial is long, but it’s only because there are a lot 
+of screenshots.
 
-Also, consider that the length is half what it is if you follow half of instructions : for example if you only want the windows instructions
+Also, consider that the length is half what it is if you 
+follow half of instructions : for example if you only want 
+the windows instructions.
 
-All the pictures used for this tutorial are also available [in google drive]( https://drive.google.com/drive/folders/1IgnnyQapOVqG9Gn6zHrP93LxO5qC6IVZ?usp=sharing) and on [github /pictures/](/pictures/)
+All the pictures used for this tutorial are also available 
+[in google drive]( https://drive.google.com/drive/folders/1IgnnyQapOVqG9Gn6zHrP93LxO5qC6IVZ?usp=sharing) 
+and on [github /pictures/](/pictures/).
 
-This tutorial is featuring PhoenixGo because it’s the ai i use : https://github.com/Tencent/PhoenixGo 
+This tutorial is featuring PhoenixGo because it’s the ai 
+i use : https://github.com/Tencent/PhoenixGo 
 
-But it wil work the same for all bots/ai
-(for [leela zero](https://github.com/gcp/leela-zero) or other bots you only need to change path to the executable, and the `--youraiarguments`)
+But it wil work the same for all bots/ai (for 
+[leela zero](https://github.com/gcp/leela-zero) or other 
+bots you only need to change path to the executable, and 
+the `--youraiarguments`)
 
-For your convenience a clickable index is available, and at the top of every part of the tutorial, it is clickable so feel free to browse through it
+For your convenience a clickable index is available, and 
+at the top of every part of the tutorial, it is clickable 
+so feel free to browse through it.
 
-**The current part of the index you are in is highlighted** 
+**The current part of the index you are in is highlighted**
 
-## Discord chat
+# Important: Submit Move Button
 
-come chat with all bot admins and people interested on ogs on the discord here :)
+It is easy to accidentally misclick and play a move instead 
+of your bot.
+
+To avoid accidental misclicks while spectating a game from 
+your bot account, go in 
+[Profile Settings](https://online-go.com/user/settings).
+
+Select **"Submit-Move button"** for all games:
+
+![click-submit](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/click-submit.png?raw=true)
+
+# Discord chat
+
+come chat with all bot admins and people interested on OGS 
+on the discord here :)
 
 https://discord.gg/HZ23Cp9
 
-## AI tournaments
+# Picture examples
 
-we are also running correspondence AI tournaments for amateur bot admins here :)
-
-welcome to everyone :)
-
-[metaBot AI Tournaments OGS 2019x19](https://online-go.com/group/3211)
-
-# Pictures
-
-Come challenge [my bot on OGS](https://online-go.com/player/592558) and let's have fun together, bot vs bot
+Come challenge [my bot on OGS](https://online-go.com/player/592558) 
+and let's have fun together, bot vs bot
 
 ![node96b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node96b.png?raw=true)
 ![node68](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node68.PNG?raw=true)
 ![node92b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node92b.png?raw=true)
 
-credits for making this tutorial go to : [wonderingabout](https://github.com/wonderingabout)
+credits for making this tutorial go to : 
+[wonderingabout](https://github.com/wonderingabout)

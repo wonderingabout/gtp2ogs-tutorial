@@ -33,14 +33,19 @@
 
 Npm (node package manager) installs an old branch of gtp2ogs
 
-I recommend to use rather the devel branch (latest with new features, improvements, and fixes)
+I recommend to use rather the devel branch (latest with new features, 
+improvements, and fixes)
 
-To do that, download from the gtp2ogs github the “devel” branch in a zip archive [here](https://github.com/online-go/gtp2ogs/tree/devel)
+To do that, download from the gtp2ogs github the “devel” branch in a 
+zip archive [here](https://github.com/online-go/gtp2ogs/tree/devel)
 
 ![node13v2](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node13v2.png?raw=true)
 ![node14v2](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node14v2.png?raw=true)
 
-Then extract the zip archive, copy all files in the archive from downloaded path, to path where gtp2ogs was installed in node_modules, and overwrite old files (you can make a backup of gtp2ogs.js first and rename it gtp2ogs.js-backup if you want)
+Then extract the zip archive, copy all files in the archive from 
+downloaded path, to path where gtp2ogs was installed in node_modules, 
+and overwrite old files (you can make a backup of gtp2ogs.js first and 
+rename it gtp2ogs.js-backup if you want)
 
 ![node15](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node15.PNG?raw=true)
 ![node16](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node16.PNG?raw=true)

@@ -42,19 +42,32 @@ sudo node /usr/lib/node_modules/gtp2ogs/gtp2ogs.js --beta --apikey 53e4288597ab0
 ```
 
 
-You can find the list of gtp2ogs arguments [here](https://github.com/online-go/gtp2ogs)
+You can find the list of gtp2ogs arguments 
+[here](https://github.com/online-go/gtp2ogs)
 or [here too if you ctrl+f “describe”](https://github.com/online-go/gtp2ogs/blob/devel/gtp2ogs.js)
 
-Note : in `--gtp2ogsargument3 -- path/to/your/ai/runfile.file`, the double space before and after ` -- ` here is important, it is not a mistake : it separates gtp2ogs arguments from your ai arguments
+Note : in `--gtp2ogsargument3 -- path/to/your/ai/runfile.file`, the 
+double space before and after ` -- ` here is important, it is not a 
+mistake : it separates gtp2ogs arguments from your ai arguments
 
-Note 2 : this is not a real apikey, no need to try it, use your own real api key for you
+Note 2 : this is not a real apikey, no need to try it, use your own 
+real api key for you
 
-Note 3 : to play on [beta.ogs](https://beta.online-go.com/) instead of [official ogs](https://online-go.com/), the `--beta` gtp2ogs argument needs to be added
+Note 3 : to play on [beta.ogs](https://beta.online-go.com/) instead 
+of [official ogs](https://online-go.com/), the `--beta` gtp2ogs 
+argument needs to be added
 
-Note 4 : since bots can consume a lot of gpu power for a long duration, it is recommended to use a lower power usage of your GPU and to also manually increase the fan speed to keep your GPU cool
-I followed these instructions to do it if you are curious integrated at startup (50% fanspeed) [if you are curious](https://bitcointalk.org/index.php?topic=1712831.0)
+Note 4 : since bots can consume a lot of gpu power for a long 
+duration, it is recommended to use a lower power usage of your 
+GPU and to also manually increase the fan speed to keep your GPU 
+cool
 
-It is possible to add more arguments, for example something like this : 
+I followed these instructions to do it if you are curious 
+integrated at startup (50% fanspeed) 
+[if you are curious](https://bitcointalk.org/index.php?topic=1712831.0)
+
+It is possible to add more arguments, for example something 
+like this : 
 
 ```
 sudo nvidia-smi -pm 1 && sudo nvidia-smi -pl 75 && nvidia-smi -i 0 -q -d POWER,CLOCK && cd /home/amd2018/PhoenixGo/etc && sudo nano mcts_1gpu.conf && sudo node /usr/lib/node_modules/gtp2ogs/gtp2ogs.js --beta --apikey 53e4288597ab04c591dffikz4se8u6v1y2z8tty7 --username meta--金毛测试-20b --boardsize 19 --debug --persist --noclock --minrank 5k --unrankedonly --maxhandicap 2 --timecontrol fischer,byoyomi --speed live --minmaintime 120 --minperiodtime 120 --greeting "hi, hi have fun)" --farewell "thank you for the game, hope you enjoyed and/or learned :) there is victory in defeat :)" -- /home/amd2018/PhoenixGo/bazel-bin/mcts/mcts_main --gtp --config_path=/home/amd2018/PhoenixGo/etc/mcts_1gpu.conf
@@ -66,27 +79,42 @@ sudo nvidia-smi -pm 1 && sudo nvidia-smi -pl 75 && nvidia-smi -i 0 -q -d POWER,C
 
 -> gtp2ogs arguments is OGS settings (time settings, minimum rank of players, etc...) : `--beta --apikey 53e4288597ab04c591dffikz4se8u6v1y2z8tty7 --username meta--金毛测试-20b --boardsize 19 --debug --persist --noclock --minrank 5k --unrankedonly --maxhandicap 2 --timecontrol fischer,byoyomi --speed live --minmaintime 120 --minperiodtime 120 --greeting "hi, hi have fun)" --farewell "thank you for the game, hope you enjoyed and/or learned :) there is victory in defeat :)"`
 
--> ` -- ` (with the double space before and after) separates OGS arguments from your ai arguments (the spaces at both sides are needed and important, not a mistake)
+-> ` -- ` (with the double space before and after) separates OGS 
+arguments from your ai arguments (the spaces at both sides are 
+needed and important, not a mistake)
 
--> then you add your ai arguments (resign rate, strength of the ai settings, logging to file, etc…) for example this for my bot : `/home/amd2018/PhoenixGo/bazel-bin/mcts/mcts_main --gtp --config_path=/home/amd2018/PhoenixGo/etc/mcts_1gpu.conf`
+-> then you add your ai arguments (resign rate, strength of the 
+ai settings, logging to file, etc…) for example this for my bot : 
+`/home/amd2018/PhoenixGo/bazel-bin/mcts/mcts_main --gtp --config_path=/home/amd2018/PhoenixGo/etc/mcts_1gpu.conf`
 
-So now we are connected on beta ogs server, as you can see in the screenshot below :
+So now we are connected on beta ogs server, as you can see in the 
+screenshot below :
 
 
 
-Open your web browser (firefox,chrome, etc…), and connect to your beta ogs bot account, then send a challenge to an ai, for example [GNUGo](https://beta.online-go.com/player/3/) or [Fuego](https://beta.online-go.com/player/193/)
+Open your web browser (firefox,chrome, etc…), and connect to your 
+beta ogs bot account, then send a challenge to an ai, for example 
+[GNUGo](https://beta.online-go.com/player/3/) or 
+[Fuego](https://beta.online-go.com/player/193/)
 
-(ai vs ai will play the games automatically, you can send a challenge against your personal beta account and manually play against your own ai if you want though)
+(ai vs ai will play the games automatically, you can send a challenge 
+against your personal beta account and manually play against your 
+own ai if you want though)
 
-For example i connect into my [beta bot account](https://beta.online-go.com/player/787/) and i’ll challenge Fuego to test if my bot can play automatically
+For example i connect into my 
+[beta bot account](https://beta.online-go.com/player/787/) and i’ll 
+challenge Fuego to test if my bot can play automatically
 
-For reference, the game was played here with a komi of 225.5 (test), even though my ai was originally not able to play with it, [here](https://beta.online-go.com/game/3960)
+For reference, the game was played here with a komi of 225.5 (test), 
+even though my ai was originally not able to play with it, 
+[here](https://beta.online-go.com/game/3960)
 
 ![node87](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node87.png?raw=true)
 
 Success! The bot plays automatically !
 
-Below is the log of my ai (PhoenixGo), which shows winrates, thinking time, etc…
+Below is the log of my ai (PhoenixGo), which shows winrates, 
+thinking time, etc…
 
 ![node84](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node84.png?raw=true)
 ![node85](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node85.png?raw=true)
@@ -94,10 +122,15 @@ Below is the log of my ai (PhoenixGo), which shows winrates, thinking time, etc�
 
 You can press Ctrl+C to stop the engine
 
-Last thing before being able to play on official OGS, is you have to run some stability test games in the beta server (for example 2-3 games at the same time against GNUGo and Fuego, and see if it works fine)
+Last thing before being able to play on official OGS, is you have to 
+run some stability test games in the beta server (for example 2-3 games 
+at the same time against GNUGo and Fuego, and see if it works fine)
 
-Try to send game challenges to your ai with your personal beta user account and see if it behaves correctly as expected
+Try to send game challenges to your ai with your personal beta user 
+account and see if it behaves correctly as expected
 
-If it works, message the moderators again on official OGS, and ask them to make your official bot account into a grey name, so that you have an apikey into the real OGS server.
+If it works, message the moderators again on official OGS, and ask 
+them to make your official bot account into a grey name, so that you 
+have an apikey into the real OGS server.
 
 [Next Page ->](/docs/3A6-linux-run-gtp2ogs-js-beta.md)

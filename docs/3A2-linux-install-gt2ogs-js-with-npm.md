@@ -41,13 +41,16 @@ Result is something like this :
 added 88 packages from 54 contributors in 5.734s
 ```
 
-The path that is highlighted **/usr/lib/node_modules/gtp2ogs/** will be important for later
+The path that is highlighted **/usr/lib/node_modules/gtp2ogs/** will 
+be important for later
 
-Note : in some situations npm is installed in /usr/local/lib/node_modules/gtp2ogs/gtp2ogs.js
+Note : in some situations npm is installed in 
+/usr/local/lib/node_modules/gtp2ogs/gtp2ogs.js
 
 ![node81](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node81.png?raw=true)
 
-If that’s the case for you, replace /usr/lib/ to /usr/local/lib in all the steps you see below 
+If that’s the case for you, replace /usr/lib/ to /usr/local/lib 
+in all the steps you see below 
 
 [Next page ->](/docs/3A3-linux-optional-upgrade-to-devel.md)
 
