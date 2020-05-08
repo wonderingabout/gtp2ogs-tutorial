@@ -25,82 +25,53 @@
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
-3A4) Optional : Modify the gtp2ogs.js file (for example force komi to 7.5)
+# 3A4) Optional : Modify gtp2ogs.js (for example force komi to 7.5)
 
-**(You can skip this step if you dont want it, [Next Page ->](/docs/3A5-linux-run-gtp2ogs-js-beta.md)**
+# User
 
+If you're a user, you can use another branch than the default gtp2ogs devel
+ or latest release by copy pasting another branch and overwriting existing files.
 
---------------------
+You can skip the rest of the page:
+[Next Page ->](/docs/3A5-linux-run-gtp2ogs-js-beta.md)
 
-!!! IMPORTANT !!
+# Developper:
 
-**NOTE :**
-**This method is now outdated, you can now add the `--komi` argument directly, but it shows an example of how to edit gtp2ogs.js for various other reasons**
+You can tweak gtp2ogs to behave as you intend, preferably in a new branch.
 
-**NOTE 2 :**
-**A more interesting example is for your bot to send the winrate on OGS at every move, in ingame chat, as you can see below**
+You can skip to [Next Page ->](/docs/3A5-linux-run-gtp2ogs-js-beta.md)
+ or read the example if you're curious:
 
-![phoenixgo-text-winrate](/pictures/phoenixgo-text-winrate.png)
+# Old example:
 
-big big thanks to [roy7](https://github.com/roy7) for the help !, these 
-changes are a modification of 
-[/roy7/gtp2ogs/live](https://github.com/roy7/gtp2ogs/tree/live)
+Below you will find a historical example before the
+ [--komis](https://github.com/online-go/gtp2ogs/blob/devel/docs/OPTIONS-LIST.md#komis)
+ option existed, to workaround bots that only support komi 7.5 (PhoenixGo).
 
-see 
-[that branch](https://github.com/wonderingabout/gtp2ogs/tree/roy7live-textonly-phoenixgo)
-
-------------------
- 
-for the outdated example : 
-
-if you need, you can also modify gtp2ogs.js file for specific reasons : 
-
-for example my AI cannot play a game if the komi is set to another value 
+For example my AI cannot play a game if the komi is set to another value 
 than 7.5 (for example 6.5 , 0.5 , 85.5 220.5, etc) , it gives the error 
-message “? unacceptable komi“.
+message `? unacceptable komi`.
 
-To avoid that, since there is no --komi argument in gtp2ogs.js that would 
+To avoid that, since there is no `--komis` argument in gtp2ogs.js that would 
 reject games without the wanted komi (would be 7.5 for me), then a trick is 
-to lie to the ai, telling it that all games are played with a komi of 7.5 
+to lie to the AI, telling it that all games are played with a komi of 7.5 
 even if it’s not true : 
 
-The endgame scoring may become wrong because the ai is playing as if komi 
+The endgame scoring may become wrong because the AI is playing as if komi 
 was 7.5 while it’s not always true, but this is not a problem in unranked 
-games because most games end by resign, and i personally dont mind if people 
-win by 0.5. What is much more important for me is that at least my ai is 
-able to play games and doesnt crash at 30-40% of the game challenges (in 
-particular, it will be able to play handicap games that use 0.5 komi by 
-default instead of 7.5).
+games because most games end by resign.
 
-To do that, go the path in node_modules where gtp2ogs.js is installed 
-(as explained earlier), then edit the gtp2ogs.js file with ubuntu : 
+In gtp2ogs.js (now moved to game.js):
 
-```
-cd /usr/lib/node_modules/gtp2ogs/  && sudo nano gtp2ogs.js
-```
+i replaced `this.command("komi " + state.komi);`
 
-search for the word “komi”
-
-and replace 
-`this.command("komi " + state.komi);`
-With
-`this.command("komi " + 7.5);`
+With `this.command("komi " + 7.5);`
 
 ![node82c](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node82g4v2.png?raw=true)
 
 ![node82d](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node82g4z9.png?raw=true)
 
-then save and exit
-
-(use nano or the text editor of your choice : to use nano, here is 
-some explanation :
-- F6 allows you to search for a word, write “komi” for example, and 
-press ENTER)
-- ^ means ctrl,
-- So for example  ^+X is ctrl+x and does the exit action, but will 
-ask if you want to save before exiting, press y to say yes, and 
-then press ENTER to save and exit (or n then ENTER to exit without 
-saving)
+This is just an example
 
 [Next Page ->](/docs/3A5-linux-run-gtp2ogs-js-beta.md)
 

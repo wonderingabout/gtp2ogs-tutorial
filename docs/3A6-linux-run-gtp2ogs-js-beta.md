@@ -25,7 +25,12 @@
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
-3A6) Run gtp2ogs.js (official)
+# Before continuing to read
+
+Please read [this important information](/docs/3A5-linux-run-gtp2ogs-js-beta.md#before-continuing-to-read)
+ if you didn't already.
+
+# 3A6) Run gtp2ogs.js (official)
 
 Last changes needed to be able to play on official OGS : 
 
@@ -39,7 +44,7 @@ engine) as we saw earlier for beta server, for example, i login with
 for example i replace this `--username meta--金毛测试-20b` with that 
 `--username meta-金毛测试-20b`
 - Replace your beta.ogs apikey with the official  for example for me 
-this `--apikey 53e4288597ab04c591dffikz4se8u6v1y2z8tty7` becomes now 
+this `--apikey 53e428v1e8rv1er81e8febvv89r12be8` becomes now 
 that apikey in the official OGS 
 `--apikey 1169f6espjogrdjirdgdrjgdrgdrigrdg958s4f8esg1` (this is not 
 the real apikey so dont bother trying them)
@@ -70,7 +75,7 @@ for example, i personally use something close to that (this is
 a false apikey btw so dont bother trying it)
 
 ```
-sudo nvidia-smi -pm 1 && sudo nvidia-smi -pl 75 && nvidia-smi -i 0 -q -d POWER,CLOCK && cd /home/hello2/PhoenixGo/etc && sudo nano mcts_1gpu.conf && sudo node /usr/lib/node_modules/gtp2ogs/gtp2ogs.js --apikey 1169f6espjogrdjirdgdrjgdrgdrigrdg958s4f8esg1 --username meta-金毛测试-20b --maxactivegames 1 --boardsize 19 --debug --noclock --persist --minrank 6k --unrankedonly --maxhandicap 2 --timecontrol fischer,byoyomi --speed live --minmaintime 120 --minperiodtime 120 --greeting "hi, the first move can be LONG (2-3 minutes) but after that the bot plays fast, this bot uses the level 1 strength mode capped at 30s per move batch 32 (bot only), if you want to play with stronger settings please message bot admin metaphysician splurgist :) https://online-go.com/user/view/479173 and ask him to play against the stronger bot (https://online-go.com/player/596107), this bot it cannot give handicap BUT i can play special first stones in the same area to give the bot a disadvantage see : https://online-go.com/demo/view/360464, this bot uses the original phoenixgo engine provided by tencent https://github.com/Tencent/PhoenixGo 20 blocks version , not leela zero,this bot plays on ubuntu 16.04 with tensorRT 3.0.4 on a personal machine (no cloud), have fun :)" --farewell "thank you for the game, hope you enjoyed and/or learned :) there is victory in defeat :)" -- /home/hello2/PhoenixGo/bazel-bin/mcts/mcts_main --gtp --config_path=/home/hello2/PhoenixGo/etc/mcts_1gpu.conf
+sudo nvidia-smi -pm 1 && sudo nvidia-smi -pl 75 && nvidia-smi -i 0 -q -d POWER,CLOCK && cd /home/amd2020/PhoenixGo/etc && nano mcts_1gpu.conf && node ~/gtp2ogs-node/node_modules/gtp2ogs/gtp2ogs.js --apikey 1169f6espjogrdjirdgdrjgdrgdrigrdg958s4f8esg1 --username meta-金毛测试-20b --maxactivegames 1 --boardsizes 19 --debug --noclock --persist --minrank 6k --unrankedonly --maxhandicap 2 --timecontrols fischer,byoyomi --speeds live --minmaintimelive 120 --minperiodtimelive 120 --greeting "hi, this bot uses the original phoenixgo engine provided by Tencent https://github.com/Tencent/PhoenixGo 20 blocks version , not leela zero, have fun :)" --farewell "thank you for the game, hope you enjoyed and/or learned :) there is victory in defeat :)" -- /home/amd2020/PhoenixGo/bazel-bin/mcts/mcts_main --gtp --config_path=/home/amd2020/PhoenixGo/etc/mcts_1gpu.conf
 ```
 ![node90b](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node90b.png?raw=true)
 
@@ -107,4 +112,4 @@ You now have a bot on the official OGS server, have fun :)
 Credit for making this tutorial go to the most splurgist ogs 
 player ever, aka : https://online-go.com/user/view/479173 
 
-but anyways cya ^^
+anyways cya ^^

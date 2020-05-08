@@ -25,107 +25,59 @@
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
-3A3) Optional : Upgrade gtp2ogs from old branch to “devel” branch (latest)
+# 3A3) Optional : Upgrade gtp2ogs from old branch to “devel” branch (latest)
 
-**(This step is not an obligation, but it is highly recommended and only takes a few minutes)**
+**This step is highly recommended**, even though you can skip it.
 
-**UPDATE FEBRUARY 2019 : the old gtp2ogs.js has been split into many modules, to upgrade your gtp2ogs to devel, you now need to upgrade all the gtp2ogs files (gtp2ogs.js, bot.js, config.js, etc...). But the process to upgrade your branch is the same : just copy all gtp2ogs files now, instead of only gtp2ogs.js in the past**
+The last stable release of gtp2ogs is old does not include recent fixes and improvements,
+ see [the official gtp2ogs devel branch's github](https://github.com/online-go/gtp2ogs/tree/devel)
 
+note: as of february 2019, the old gtp2ogs.js has been split into many modules. To upgrade your
+ gtp2ogs version to devel, this is not relevant, because all we have to do is regardless just
+ to replace old gtp2ogs folder with the devel one.
 
-The last stable release of gtp2ogs is old, it is higly recommended to use 
-the devel branch of gtp2ogs rather, to have latest fixes and improvements, 
-see [the official github](https://github.com/online-go/gtp2ogs/tree/devel)
-
-Note : The generic command `sudo npm install -g --save online-go/gtp2ogs#devel --save` 
-should have allowed to do it, but it seems using the `#` is forbidden by 
-online-go github, so we will rather download gtp2ogs devel branch ZIP 
-archive directly. 
+# Upgrade to online-go/devel latest version
 
 To upgrade gtp2ogs.js to devel branch, we’ll use the all in one command 
-below : 
+below: 
 
-The all-in-one command below uses the path where gtp2ogs.js was installed 
-in node_modules, that we highlighted in red earlier.
+note 2: if backup folder already exists, it will tell that to you, but 
+this doesnt prevent our all in one command from being executed
+ (backup folder content will just be overwritten)
 
-In this example, it is : **/usr/lib/node_modules/gtp2ogs/gtp2ogs.js** 
-
-(if your path is different, replace it in the command below and in all 
-the next steps of this tutorial)
-
-Note : if backup folder already exists, it will tell that to you, but 
-this doesnt prevent
-our all in one command from being executed (backup folder content will 
-just be overwritten)
-
-```
+```Shell
 # Making backup of existing gtp2ogs && \
-sudo mkdir ~/gtp2ogs-backup ; \
-sudo cp -rf /usr/lib/node_modules/gtp2ogs/* ~/gtp2ogs-backup && \
-# Overwriting existing gtp2ogs with newly cloned gtp2ogs branch && \
-cd ~ && mkdir testtt && cd testtt && \
-git clone -b devel https://github.com/online-go/gtp2ogs && cd gtp2ogs && \
-git branch && ls && \
-sudo cp -rf * /usr/lib/node_modules/gtp2ogs/ && \
-# Post-install cleanup && \
-sudo rm -rf ~/testtt && \
-# Going to destination folder && \
-cd /usr/lib/node_modules/gtp2ogs/ && \
-# Installing extra needed packages from new branch's package.json && \
-sudo npm install && \
-sudo npm audit fix --force && \
+mkdir ~/gtp2ogs-backup ; \
+cd ~/gtp2ogs-node/node_modules/gtp2ogs && \
+cp -rf * ~/gtp2ogs-backup/ && \
+# Delete existing gtp2ogs folder && \
+cd .. && \
+rm -rf gtp2ogs && \
+# Install gtp2ogs latest devel cloned from github && \
+git clone -b devel https://github.com/online-go/gtp2ogs && \
+cd gtp2ogs && \
+git branch && \
+# Installing locally extra needed dependencies from new branch's package.json && \
+npm install && \
 ls
 ```
+![node l 003](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node-l-003.png?raw=true)
 
-You can also use any custom branch that has some extra features or 
-fixes, for example using this branch instead of the online-go/gtp2ogs 
-official devel branch, in the same command line than above : 
+If you just want to use gtp2ogs easily (not dev), you can also copy paste
+ (from downloaded ZIP on github website) any other branch
+ that has some extra features or fixes, for example using this command
+ `git clone -b roy7live-textonly-phoenixgo https://github.com/wonderingabout/gtp2ogs && \`
+ in the same command line than above.
 
-```
-# Making backup of existing gtp2ogs && \
-sudo mkdir ~/gtp2ogs-backup ; \
-sudo cp -rf /usr/lib/node_modules/gtp2ogs/* ~/gtp2ogs-backup && \
-# Overwriting existing gtp2ogs with newly cloned gtp2ogs branch && \
-cd ~ && mkdir testtt && cd testtt && \
-git clone -b roy7live-textonly-phoenixgo https://github.com/wonderingabout/gtp2ogs && cd gtp2ogs && \
-git branch && ls && \
-sudo cp -rf * /usr/lib/node_modules/gtp2ogs/ && \
-# Post-install cleanup && \
-sudo rm -rf ~/testtt && \
-# Going to destination folder && \
-cd /usr/lib/node_modules/gtp2ogs/ && \
-# Installing extra needed packages from new branch's package.json && \
-sudo npm install && \
-sudo npm audit fix --force && \
-ls
-```
+# For developers
 
-Note : do not mind the other files and folders in this screenshot, 
-they are not needed for this tutorial
+If you're a developper, you'd most likely want to use your own repository, so you'd run
+ the same command as above, except that you'd use devel or any other branch from YOUR repository
+ (i am `wonderingabout` for example `git clone -b devel https://github.com/wonderingabout/gtp2ogs && \`)
 
-Note 2 : do not mind the warning permission denied, it doesn't 
-prevent us from doing what we want
+![node l 004](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node-l-004.png?raw=true)
 
-![node82](https://github.com/wonderingabout/gtp2ogs-tutorial/blob/master/pictures/node82.png?raw=true)
-
-Explanation of what this command does :
-
-- in node_modules install path of gtp2ogs files (in this example 
-/usr/lib/node_modules/gtp2ogs/), do a backup of all the gtp2ogs files 
-in a new folder called "gtp2ogs-backup" in home folder (we can revert 
-to that later if we want),
-- then go to home folder,
-- create a folder named “testtt”,
-- go into that testtt folder,
-- clone gtp2ogs devel (it is the latest) branch from github,
-- go into that github gtp2ogs devel folder,
-- check branch which is selected (should be devel),
-- show a list of the files,
-- then copy all gtp2ogs files in that devel folder recursively into 
-the node_modules gtp2ogs path folder /usr/lib/node_modules/gtp2ogs/ , 
-(will erase old files, but we created a backup of gt2ogs files earlier 
-so no problem here) 
-- then cleanup by removing the testtt folder in home folder we used,
-- and finally go back to where gtp2ogs files were installed as explained 
-earlier (in this example /usr/lib/node_modules/gtp2ogs/ )
+This method installs gtp2ogs locally in your home folder, which allows to easily change branches
+ with `git checkout` and do any other dev operation very conveniently!
 
 [Next page ->](3A4-linux-optional-edit-gtp2ogs-js-file.md)

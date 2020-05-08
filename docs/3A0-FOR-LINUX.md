@@ -26,9 +26,11 @@
   - [3B5) Run gtp2ogs.js (beta)](/docs/3B5-windows-run-gtp2ogs-js-beta.md)
   - [3B6) Run gtp2ogs.js (official)](/docs/3B6-windows-run-gtp2ogs-js-beta.md)
 
+# 3A0) FOR LINUX
+
 So :
 
-- Nodejs is a javascript server tool that we will use to run gtp2ogs later
+- node.js is a javascript server tool that we will use to run gtp2ogs later
 - gtp2ogs is a javascript program used to communicate in both directions 
 (in and out) in GTP language between your AI bot engine (example : PhoenixGo, 
 leela zero, etc..) and the OGS distant board where the game is played
