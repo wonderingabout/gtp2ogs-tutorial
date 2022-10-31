@@ -29,11 +29,11 @@ Wait until a moderator answers you
 
 When they do it for you, your beta ogs bot account will have a grey name, so now your beta ogs bot account is a true bot account (because it has a grey name now)
 
-Now, visit your beta OGS bot profile page, you will see that the the beta bot admin is now your beta user account, for example in my case metaphysician splurgist :) (beta user account) is now the beta bot admin
+Now, visit your beta OGS bot profile page, you will see that the the beta bot admin is now your beta user account, for example in my case `metaphysician splurgist :)` (beta user account) is now the beta bot admin
 
-Now that your bot has a grey name, connect to your beta user account, and visit the profile page of your beta bot account
+Now that your bot has a grey name, log in to your beta user account (as bot admin), and visit the profile page of your beta bot account
 
-For example, i connect to this betaogs user account metaphysician splurgist :) in this example https://beta.online-go.com/player/786/ 
+For example, I log in to this betaogs user account `metaphysician splurgist :)` in this example https://beta.online-go.com/player/786/ 
 
 Then i open the profile page of my beta ogs bot account meta--金毛测试-20b here : https://beta.online-go.com/player/787
 
